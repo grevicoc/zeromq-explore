@@ -7,3 +7,7 @@ requester.on('message', function(msg) {
   console.log('got reply too: ', replyNbr, msg.toString());
   replyNbr += 1;
 });
+
+for (var i = 0; i < 10; ++i) {
+  requester.send("Hello from frontend 2");
+}

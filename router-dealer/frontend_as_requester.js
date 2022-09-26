@@ -9,5 +9,5 @@ requester.on('message', function(msg) {
 });
 
 for (var i = 0; i < 10; ++i) {
-  requester.send("Hello");
+  requester.send("Hello from frontend 1");
 }
