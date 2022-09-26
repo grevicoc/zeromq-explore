@@ -1,0 +1,10 @@
+{
+  "name": "zeromq-explore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.6.0",
+    "zeromq": "5"
+  }
+}
